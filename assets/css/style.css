@@ -1,0 +1,53 @@
+body {
+    background-image: url(../images/prism.png);
+}
+hr {
+    color: #cccccc;
+    width: 100%;
+}
+.greenbox {
+    /*position: fixed;*/
+    width: 157px;
+    height: 30px;
+    background-color: #4aaaa5;
+    text-align: center;
+    margin-left: 4%;    
+}
+.footer {
+    text-align: center;
+}
+
+/* JUMBOTRON */
+.jumbotron {
+    margin: 0 5% 1% 5%;
+}
+
+/* PORTFOLIO PAGE */
+
+.portfolioheader {
+    margin-left: 9%;
+}
+
+.portfoliobox {
+    margin-right: 9%;
+    margin-left: 8%;
+}
+.portfoliogreenbox {
+    width: 157px;
+    height: 30px;
+    text-align: center;
+    margin-left: 11%;
+    background-color: #4aaaa5;
+}
+.card-body {
+    text-align: center;
+}
+
+/* CONTACT PAGE */
+
+.form-group {
+    color: black;
+}
+.contactfooter {
+    text-align: center;
+}
