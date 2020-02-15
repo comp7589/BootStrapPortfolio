@@ -3,23 +3,28 @@ body {
 }
 hr {
     color: #cccccc;
-    width: 100%;
+    width: 98%;
 }
-.greenbox {
+.greenbox { /* THIS ONLY HAS A HANDLE ON INDEX.HTML HEADER*/
     /*position: fixed;*/
-    width: 157px;
+    /* width: 157px;
     height: 30px;
     background-color: #4aaaa5;
-    text-align: center;
+    text-align: center; */
     margin-left: 4%;    
 }
 .footer {
     text-align: center;
+    opacity: 0.4;
 }
+/* ABOUT ME */
+
 
 /* JUMBOTRON */
 .jumbotron {
     margin: 0 5% 1% 5%;
+    margin-top: 6%;
+    opacity: 0.99;
 }
 
 /* PORTFOLIO PAGE */
@@ -32,12 +37,12 @@ hr {
     margin-right: 9%;
     margin-left: 8%;
 }
-.portfoliogreenbox {
-    width: 157px;
+.portfoliogreenbox {/* THIS HAS HANDLE ON OTHER TWO HEADER TITLES */
+    /* width: 157px;
     height: 30px;
-    text-align: center;
+    text-align: center; */
     margin-left: 11%;
-    background-color: #4aaaa5;
+    /* background-color: #4aaaa5; */
 }
 .card-body {
     text-align: center;
@@ -50,4 +55,16 @@ hr {
 }
 .contactfooter {
     text-align: center;
+    opacity: 0.4;
+}
+/* HEADER */
+#myGitHub {
+    padding-right: .5%;
+}
+#myGitHub img {
+    background: transparent;
+}
+#myLinkedIn img {
+    height: 32px;
+    width: 35px;
 }
