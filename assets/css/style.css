@@ -18,7 +18,9 @@ hr {
     opacity: 0.4;
 }
 /* ABOUT ME */
-
+.resume {
+    text-align: center;
+}
 
 /* JUMBOTRON */
 .jumbotron {
